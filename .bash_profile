@@ -6,6 +6,9 @@ alias back="cd -"
 alias ll='ls -l'
 alias lla='ls -la'
 
+alias goto_roam="cd ~/org/roam"
+alias goto_wolf="cd ~/storage/shared/Documents/cult_wolf"
+
 # PATH SHENANIGANS
 # export PATH=$PATH:
 export PATH="/usr/local/bin:${PATH}"
