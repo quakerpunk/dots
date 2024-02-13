@@ -48,14 +48,31 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
+(unpin! org-roam)
+(unpin! straight)
 (package! all-the-icons-dired)
+(package! chatgpt-shell
+  :recipe (:host github
+  :repo "xenodium/chatgpt-shell"))
 (package! counsel-osx-app)
+(package! doom-nano-modeline
+  :recipe (:host github
+  :repo "ronisbr/doom-nano-modeline"))
 (package! elfeed)
 (package! elfeed-goodies)
-(package! elfeed-org)
+;;(package! elfeed-org)
+(package! elfeed-protocol)
+(package! ement)
+(package! gptel)
+(package! org-ai)
 (package! org-bullets)
-(package! osx-browse)
-(package! reveal-in-osx-finder)
+(package! org-roam-ui)
+(package! org-similarity
+  :recipe (:host github
+  :repo "brunoarine/org-similarity"
+  :branch "main"))
+(package! org-web-tools :pin "8f8b5c6")
+(package! pocket-reader :pin "5354082")
 (package! todoist)
 (package! twittering-mode)
 (package! wc-mode)
