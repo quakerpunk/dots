@@ -62,8 +62,12 @@
 (package! elfeed-goodies)
 ;;(package! elfeed-org)
 (package! elfeed-protocol)
+(package! flymake-vale
+  :recipe (:host github
+           :repo "tpeacock19/flymake-vale"))
 (package! ement)
 (package! gptel)
+(package! nov)
 (package! org-ai)
 (package! org-bullets)
 (package! org-roam-ui)
@@ -72,9 +76,14 @@
   :repo "brunoarine/org-similarity"
   :branch "main"))
 (package! org-web-tools :pin "8f8b5c6")
-(package! pocket-reader :pin "5354082")
+(package! pocket-reader :pin "7f55668")
+;; (package! org-web-tools)
+;; (package! pocket-reader)
 (package! todoist)
 (package! twittering-mode)
 (package! wc-mode)
+(package! wombag
+  :recipe (:host github
+           :repo "karthink/wombag"))
 (package! writegood-mode)
-(package! wordsmith-mode)
+;; (package! wordsmith-mode)
